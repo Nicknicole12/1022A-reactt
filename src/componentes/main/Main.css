@@ -1,0 +1,6 @@
+main{
+    display: flex;
+    min-height: 20rem;
+    border: 0.1rem solid red;
+    padding: 5vw;
+}

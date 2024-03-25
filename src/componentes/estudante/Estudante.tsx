@@ -1,8 +1,7 @@
-import './Main.css'
-function Main(){
+import './Estudante.css'
+function Estudante(){
     return(
-        <main>
-            <div className="estudante-box">
+        <div className="estudante-box">
                 <img className='estudante-foto' src="https://github.com/guilhermeterenciani.png" alt=""/>
                 <div className="informacoes">
                     <h3 className="estudante_nome">Guilherme Figueiredo Terenciani</h3>
@@ -10,10 +9,6 @@ function Main(){
                     <a className='link-git' href="https://github.com/guilhermeterenciani">GitHub</a>
                 </div>
             </div>
-
-            
-        </main>
     )
 }
-
-export default Main
+export default Estudante

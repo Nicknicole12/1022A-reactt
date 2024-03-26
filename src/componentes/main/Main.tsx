@@ -71,12 +71,6 @@ function Main() {
         githubLink="https://github.com/narrianesil"
       />
       <Estudante
-        nome="Tainara de Oliveira Dias"
-        descricao="Aluna no IFMS-NV"
-        foto="https://github.com/account"
-        githubLink="https://github.com/"
-      />
-      <Estudante
         nome="Ryan Gosling"
         descricao="I drive"
         foto="https://github.com/pkz1nzz.png"

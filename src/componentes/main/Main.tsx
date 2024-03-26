@@ -188,7 +188,21 @@ function Main() {
     },
   ];
 
-  return <main></main>;
+  return(
+    <main>
+        {
+            estudantesIMDB.map((estudante)=>{
+                return (
+                    <Estudante nome={estudante.nome}
+                               descricao={estudante.descricao}
+                               foto={estudante.foto}
+                               githubLink={estudante.githubLink}
+                    />
+                )
+            })
+        }
+    </main>
+  );
 }
 
 export default Main;
